@@ -7,7 +7,7 @@ import {
   faRotateLeft,
   faRotateRight,
   faFileArrowDown,
-} from "@fortawesome/free-solid-svg-icons";
+} from "@fortawesome/free-solid-svg-icons"; 
 
 import styles from "./index.module.css";
 
