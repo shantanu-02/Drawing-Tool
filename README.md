@@ -1,17 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Drawing Tool
 
-## Getting Started
+- Demo: [Drawing-Tool live link](drawing-tool-seven.vercel.app)
 
-First, run the development server:
+  Introducing the Collaborative Drawing Tool, an interactive web application designed to enhance your creative workflow and collaboration. This tool offers a range of features that allow users to draw, edit, and collaborate in real-time.
+## Languages and frameworks used:
 
-npm run dev
+- HTML
+- Tailwind CSS
+- Javascript
+- Next.js
+- Redux for state management
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installing and running app locally
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- open the terminal and run the following commands.
+- run `npm install` to install all dependencies.
+- To see the examples, run `npm run dev`.
+- Follow the link to see the project or open your browser `http://localhost:3000/`.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features and working
 
-## Deployed on Vercel
+- #### Collaborative.
 
-This project is deployed on Vercel. The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+  Using Redux for state management, the drawing tool supports real-time synchronization across multiple tabs or devices. This means that any changes made on one tab will instantly appear on another tab where the same webpage is open.
+
+- #### Stroke Size: Various sizes of stroke to enhance the design.
+
+  Slider Control: An intuitive slider enables easy adjustment of the stroke width, providing precise control over the drawing tool.
+
+- #### Stroke Color: Various options of colors to draw with various colors.
+
+  A slidebar allows users to pick colors directly from their drawing, ensuring color consistency throughout the artwork.
+
+- #### Eraser.
+
+   Similar to the stroke size adjustment, the eraser tool also features multiple sizes. Users can choose a small eraser for fine details or a larger one for clearing bigger areas.
