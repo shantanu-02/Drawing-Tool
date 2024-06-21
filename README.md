@@ -10,6 +10,7 @@
 - Javascript
 - Next.js
 - Redux for state management
+- Socket.io
 
 ## Installing and running app locally
 
